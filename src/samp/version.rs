@@ -72,3 +72,7 @@ pub fn version() -> Version {
 pub fn is_unknown_version() -> bool {
     version() == Version::Unknown
 }
+
+pub fn get_version() -> u8 {
+    version()
+}
