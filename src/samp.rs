@@ -110,5 +110,5 @@ pub fn is_loaded() -> bool {
 }
 
 pub fn handle() -> *mut u8 {
-    crate::utils::module_handle("samp.dll") as *mut u8
+    crate::utils::module_handle("rwmp.dll") as *mut u8
 }
